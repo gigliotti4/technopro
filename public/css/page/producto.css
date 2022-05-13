@@ -1,0 +1,121 @@
+.cabecera{
+    background-color:#F6F6F6;
+    height:135px; ;
+}
+.caja {
+position: relative;
+width: 100%;
+}
+
+.image {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+animation: roll 3s infinite;
+
+
+}
+
+
+.caja:hover .overlay {
+opacity: 1;
+}
+
+.iconoprod {
+color: white;
+font-family: 'Montserrat', 'Regular';
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+
+text-align: center;
+background-color: #fa2f38;
+border-radius: 50%;
+height: 50px;
+width: 50px;;;
+
+}
+
+[data-toggle="collapse"]:after {
+    display: inline-block;
+        
+        font: normal normal normal 12px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; 
+        content:"\f105";
+        color:#505050;
+        transition: all linear 0.25s;
+        float: right;
+    }  
+    [data-toggle="collapse"]:active {
+        display: inline-block;
+        
+        font: normal normal normal 12px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; 
+        content:"\f107";
+        color:#505050;
+        
+        float: right;
+        
+    } 
+
+.link_producto{
+        font-family: ;
+        color:#61644F !important;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    .link_producto:hover{
+        font-family: ;
+        color:#61644F !important;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    .link_categoria{
+        font-family: ;
+        color:#505050 !important;
+        font-size: 16px;
+    }
+    .link_categoria:hover{
+        font-family: ;
+        color:#505050 !important;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    .categ_active{
+        font-family: ;
+        color:black ;
+        font-size: 14px;
+        
+    } 
+    .categ_active:hover{
+        font-family: ;
+        color:black ;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    .fondodelcoso{
+        background-color: #F2F2F2;
+        height: 40px;
+        line-height: 40px;
+    }

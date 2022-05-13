@@ -1,0 +1,41 @@
+.iconocom{
+	color:#004996;
+}
+.titulo_contacto{
+     font-weight: 600;
+     font-size:13px;
+     color:#004996;
+ }
+
+.letrafooter{
+	font-size: 13px;
+	color: #8F8F8F;
+}
+ .link:hover{
+  color:#858592;
+  text-decoration: none;
+ } 
+ .bordercont{
+    
+    border:1px solid #D2D2D2 !important;
+ } 
+
+ input::placeholder{
+ 		font-size: 14px;
+        color: #8D8D8D;
+
+ }
+ textarea::placeholder{
+ 		font-size: 14px;
+ }
+ .btn-consulta{
+    color: #fff;
+    background-color: #004996;
+    border-color: #004996;
+    }
+    .btn-consulta:hover{
+    color: #004996;
+    background-color: white;
+    border-color: #004996;
+	
+    }

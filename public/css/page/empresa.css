@@ -1,0 +1,22 @@
+.texto{
+    font-family: 'Roboto', Black;
+    margin-top:130px;
+    margin-left: 60px;
+   font-size: 46px;
+   font-weight: 700;
+   color: #1F3579;
+
+}
+.textochico{
+   font-family: 'Roboto', Black;
+   margin-left: 60px;
+   width: 391px;
+   font-size: 22px;
+   color: black;
+
+  }
+
+  .fondodelcoso{
+       background-color: #F2F2F2;
+       height: 25px;
+   }

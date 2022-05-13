@@ -1,0 +1,155 @@
+body
+{
+    margin: 0px !important;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#app {
+    overflow: hidden;
+}
+/*header*/
+
+.activesoli{
+    background-color:#1FC1D6 !important;
+}
+    .fondo{
+        background-color: #94B38B;
+        line-height: 25px;
+    }
+    
+        
+    .fondoheader{
+        background-color: #269FF7;
+       
+    }
+    .container{
+    	max-width:1260px !important;
+    	}
+    	
+    .nav-link{
+        color: #333333 !important;
+    	font-size: 18px;
+    	}
+        .nav-link:hover {
+            
+            font-size: 18px;
+            font-weight: bold;
+       
+            }
+
+    .bg-header{
+            background-color: #2C3238;
+        }
+    .icono{
+    	color: #575757;
+    	font-size: 16px;
+    	padding: 6px 5px 5px 5px;
+    	line-height: unset !important;
+    }
+       
+    .enlace{
+    	color: white;
+        font-size: 16px;
+    	text-decoration: none;
+    }
+
+    .enlace:hover{
+    	color: #0F49AA !important;
+    	text-decoration: none;
+    }
+
+
+
+    .ml-6{
+
+    	padding-left: 100px;
+    	padding-right: 0 !important;
+    }
+
+
+    .activeheader{
+        font-weight: bold;
+        border-bottom:2px solid #268BC7 ;
+        
+    }
+
+    /*footer*/
+    
+    .fondofooter{
+        
+        height: 50px;
+    }
+    .circulo i{
+        border-radius: 50%;
+        border: 1x solid grey;
+        padding: 10px;
+
+    }
+    .fondofooterseccion{
+        
+       background-color: #0F49AA;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+       
+        
+    }
+    .letra{
+        font-weight: 600;
+        font-size:15px;
+        color: #FDA61F;
+    }
+    .letraenlace{
+        color: white;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .letraenlace:hover{
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+    }
+
+    .letrafooter:hover{
+        color:black;
+    }
+
+    .newsletter{
+        margin: 10px 0px;
+        background-color: #F2F2F2;
+        
+    }
+    .btn-newsletter {
+        background-color: #269FF7;
+        color: white;
+       
+    }
+    /* .input-group-text{
+        
+        margin: 10px 0px;
+        
+    } */
+    .iconofooter{
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        font-size: 17px;
+        color: #FA2F38;
+    }
+    .fondofooter2{
+       
+    }
+    .circulo i{
+        border-radius: 50%;
+        border: 1x solid grey;
+        padding: 10px
+
+    }
+
+    .btn-privada
+    {
+        background-color: #0F49AA;
+        color: white !important;
+        font-size: 18px;
+    }

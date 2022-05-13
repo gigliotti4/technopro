@@ -1,0 +1,113 @@
+
+.texto{
+    font-family: 'Open Sans', sans-serif;
+    margin-top:100px;
+    margin-left: 60px;
+   font-size: 24px;
+   
+   color: white;
+
+}
+.textochico{
+   font-family: 'Open Sans', sans-serif;
+   margin-left: 60px;
+   width: 580px;
+   font-size: 32px;
+   font-weight: 600;
+   color: white;
+
+  }
+
+.titulo{
+   color:#1268A3;
+   font-size: 24px;
+   font-weight: 800;
+}
+
+
+.btn-ficha{
+   color: #fff;
+   background-color: #FA2F38;
+   border-color: #FA2F38;
+   }
+
+
+   .btn-ficha:hover{
+   color: #FA2F38;
+   background-color: white;
+   border-color: #FA2F38;
+   
+   }
+
+   .caja {
+ position: relative;
+ width: 100%;
+}
+
+.image {
+ display: block;
+ width: 100%;
+ height: auto;
+}
+
+.overlay {
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ height: 100%;
+ width: 100%;
+ opacity: 0;
+ animation: roll 3s infinite;
+ 
+ 
+}
+
+
+.caja:hover .overlay {
+ opacity: 1;
+}
+
+.iconoprod {
+ color: white;
+ font-family: 'Montserrat', 'Regular';
+ font-size: 20px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ -webkit-transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+
+ text-align: center;
+ background-color: #fa2f38;
+ border-radius: 50%;
+ height: 50px;
+ width: 50px;;;
+
+}
+
+.link_producto{
+           font-family: ;
+           color:#61644F !important;
+           font-size: 16px;
+           text-decoration: none;
+       }
+       .link_producto:hover{
+           font-family: ;
+           color:#61644F !important;
+           font-size: 16px;
+           text-decoration: none;
+       }
+       .link_categoria{
+           font-family: ;
+           color:#505050 !important;
+           font-size: 16px;
+       }
+       .link_categoria:hover{
+           font-family: ;
+           color:#505050 !important;
+           font-size: 16px;
+           text-decoration: none;
+       }

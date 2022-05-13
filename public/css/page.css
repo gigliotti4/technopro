@@ -1,0 +1,356 @@
+.texto{
+    
+    margin-top:250px;
+   font-size: 29px;
+   color: white;
+}
+
+   .textochico{
+    
+    font-size: 57px;
+    font-weight: 700;
+    color: white;
+
+   }
+   .image{
+       width: 100%;
+   height: 270px;
+
+   }
+   .titulo{
+       bottom: 0;
+       background-color: #484E91;
+       width: 100%;
+       color: white;
+       font-size: 19px;
+   }
+
+
+   .vermas{
+       color: #333333;
+       font-weight: bold;
+   }
+   .vermas:hover{
+       color: #E30A17;
+       font-weight: bold;
+   }
+
+   .fondodelcoso{
+       background-color: #F2F2F2;
+       height: 40px;
+       line-height: 40px;
+   }
+
+  
+
+   .fondoinicio{
+       background-color: #268BC7;
+   }
+
+   /*PRODUCTOS*/
+
+   .link_producto{
+    font-family: ;
+    color:#61644F !important;
+    font-size: 16px;
+    text-decoration: none;
+}
+.link_producto:hover{
+    font-family: ;
+    color:#61644F !important;
+    font-size: 16px;
+    text-decoration: none;
+}
+.link_categoria{
+    font-family: ;
+    color:#333333 !important;
+    font-size: 16px;
+    text-decoration: none;
+}
+.link_categoria:hover{
+    font-family: ;
+    color:#0F49AA !important;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+.categ_active{
+    font-family: ;
+    color:#0F49AA ;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+} 
+.categ_active:hover{
+    font-family: ;
+    color:#0F49AA ;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+
+
+
+   [data-toggle="collapse"]:after {
+    display: inline-block;
+        
+        font: normal normal normal 12px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; 
+        content:"\f105";
+        color:#505050;
+        transition: all linear 0.25s;
+        float: right;
+    }  
+    [data-toggle="collapse"]:active {
+        display: inline-block;
+        
+        font: normal normal normal 12px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; 
+        content:"\f107";
+        color:#505050;
+        transform: rotate(90deg);
+        float: right;
+        
+    } 
+.producto{
+    text-decoration: none;
+    
+}
+
+/*CATEGORIA*/
+.prodwrap{
+    width: 100%;
+    height: 300px;
+
+}
+.prodwrap:hover .imgoverlay{
+display: block;
+top: 5px;
+bottom: 60px;
+left: 5px;
+right: 20px;
+height: 299px;
+width: 595px;
+opacity: 0.5;
+transition: .5s ease;
+background-origin: content-box;
+padding: 120px;
+background-color: #269FF7;
+}
+.imgoverlay{
+cursor: pointer;
+position: relative;
+display: none;
+color: white;
+
+text-align: center
+
+}
+.imgoverlay:hover {
+position: relative;
+color: white;
+
+}
+
+/*PRODUCTOS*/
+
+.prodwrapcat{
+    width: 100%;
+    height: 300px;
+
+}
+.prodwrapcat:hover .imgoverlaycat{
+display: block;
+top: 5px;
+bottom: 60px;
+left: 5px;
+right: 20px;
+height: 150px;
+width: 280px;
+opacity: 0.5;
+transition: .5s ease;
+background-origin: content-box;
+padding: 120px;
+background-color: #269FF7;
+}
+.imgoverlaycat{
+cursor: pointer;
+position: relative;
+display: none;
+color: white;
+
+text-align: center
+
+}
+.imgoverlaycat:hover {
+position: relative;
+color: white;
+
+}
+
+
+.btn-buscar{
+    background-color: #269FF7;
+    color: white;
+    
+}
+.btn-buscar:hover{
+    background-color: white;
+    color: #269FF7;
+  border: 1px solid #269FF7;
+}
+
+
+
+
+
+
+
+
+
+
+
+.menu{
+    text-decoration: none;
+    color:#6A7177;
+    font-size: 15px;
+}
+.menu:hover{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.activemenu{
+    background-color: #396441;
+    color: #fff !important;
+}
+.bg-sidebar{
+    background-color: #484E9A;
+    color:white;
+}
+
+.btn-menu{
+  color:#1FC1D6;
+}
+
+.btn-menu:hover{
+  color:#1FC1D6;
+}
+
+.fotorama__thumb{
+    border:1px solid #E8E8E8;
+    padding: 10px;
+}
+                    /* .fotorama__img {
+                        border: 1px solid black;
+                    } */
+.fotorama__stage {
+    border: 0.5px solid #E8E8E8;
+}
+
+.fotorama__thumb-border{
+  border-color: #269FF7 !important;
+}
+
+.btn-descarga{
+  background-color: #396441 !important;
+  color: white !important;
+}
+.btn-descarga:hover{
+  background-color: white !important;
+  color: #396441 !important;
+  border: 1px solid #396441;
+}
+
+
+
+.btn-ficha{
+  background-color: white !important;
+  color: #396441 !important;
+  border: 1px solid #396441;
+
+  
+}
+.btn-ficha:hover{
+  background-color: #396441 !important;
+  color: white !important;
+}
+
+
+/*Contacto*/
+.link{
+    font-size:13px;
+    color: #333333;
+    text-decoration: none;
+}
+.link:hover{
+    color:#269FF7;
+}
+.iconocom{
+	color:#269FF7
+}
+.titulo_contacto{
+     font-weight: 600;
+     font-size:13px;
+     color:#FDA61F;
+ }
+
+.letrafooter{
+	font-size: 13px;
+	color: #8F8F8F;
+    text-decoration: none;
+}
+ .link:hover{
+  color:#858592;
+  text-decoration: none;
+ } 
+ .bordercont{
+    
+    border:1px solid #D2D2D2 !important;
+ } 
+
+ input::placeholder{
+ 		font-size: 14px;
+        color: #8D8D8D;
+
+ }
+ textarea::placeholder{
+ 		font-size: 14px;
+ }
+ .btn-consulta{
+    color: #fff;
+    background-color: #269FF7;
+    border-color: #269FF7;
+    }
+    .btn-consulta:hover{
+    color: #269FF7;
+    background-color: white;
+    border-color: #269FF7;
+	
+    }
+
+    .formulario{
+        font-size: 14px;
+        color: #757D85;
+        
+        
+    }
+
+   
+    .form-control:focus{
+        border-color: #269FF7 !important;
+        box-shadow: 0 0 0 0.25rem rgba(38, 159, 247, .5);
+    }
+    /*.form-floating .form-control{
+        height: 2.9rem;
+
+    }*/
+
